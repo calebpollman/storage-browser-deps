@@ -1,0 +1,23 @@
+{
+  "name": "storage-browser-alpha-deps",
+  "version": "0.0.1",
+  "scripts": {
+    "pack-modules": "node pack-modules.js"
+  },
+  "dependencies": {
+    "@aws-amplify/analytics": "storage-browser",
+    "@aws-amplify/api": "storage-browser",
+    "@aws-amplify/api-graphql": "storage-browser",
+    "@aws-amplify/api-rest": "storage-browser",
+    "@aws-amplify/auth": "storage-browser",
+    "@aws-amplify/core": "storage-browser",
+    "@aws-amplify/datastore": "storage-browser",
+    "@aws-amplify/notifications": "storage-browser",
+    "@aws-amplify/storage": "storage-browser",
+    "aws-amplify": "storage-browser",
+    "@aws-amplify/ui": "storage-browser-alpha",
+    "@aws-amplify/ui-react": "storage-browser-alpha",
+    "@aws-amplify/ui-react-core": "storage-browser-alpha",
+    "@aws-amplify/ui-react-storage": "storage-browser-alpha"
+  }
+}
